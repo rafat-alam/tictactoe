@@ -1,0 +1,22 @@
+.main-form {
+  width: 57rem;
+  display: inline-block;
+}
+
+.main-body {
+  height: 100vh;
+  max-width: 100000;
+  /* display: flex; */
+  justify-content: center;
+}
+.grid {
+  display: grid;
+  gap: 1px;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+  padding: 10px;
+  background-color: #ccc;
+}
