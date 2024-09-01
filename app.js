@@ -201,12 +201,12 @@ function cell9Clicked() {
 }
 
 mainFormSubmitButton[0].addEventListener("click", submitButtonClicked);
-cell1[0].addEventListener("click", cell1Clicked);
-cell2[0].addEventListener("click", cell2Clicked);
-cell3[0].addEventListener("click", cell3Clicked);
-cell4[0].addEventListener("click", cell4Clicked);
-cell5[0].addEventListener("click", cell5Clicked);
-cell6[0].addEventListener("click", cell6Clicked);
-cell7[0].addEventListener("click", cell7Clicked);
-cell8[0].addEventListener("click", cell8Clicked);
-cell9[0].addEventListener("click", cell9Clicked);
+cell1[0].addEventListener("click", cell1Clicked, {once: true});
+cell2[0].addEventListener("click", cell2Clicked, {once: true});
+cell3[0].addEventListener("click", cell3Clicked, {once: true});
+cell4[0].addEventListener("click", cell4Clicked, {once: true});
+cell5[0].addEventListener("click", cell5Clicked, {once: true});
+cell6[0].addEventListener("click", cell6Clicked, {once: true});
+cell7[0].addEventListener("click", cell7Clicked, {once: true});
+cell8[0].addEventListener("click", cell8Clicked, {once: true});
+cell9[0].addEventListener("click", cell9Clicked, {once: true});
